@@ -306,9 +306,9 @@
         "toolbar.background": "#2e3842",
         "unreachable": null,
         "unreachable.border": null,
-        "warning": "#5c99d6",
-        "warning.background": "#5c99d6",
-        "warning.border": "#00000000",
+        "warning": "#ef9f76",
+        "warning.background": "#3f4a56",
+        "warning.border": "#ef9f76",
         "players": [
           {
             "cursor": "#b8d6f5",
