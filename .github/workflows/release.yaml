@@ -4,13 +4,14 @@ on:
       - "v*"
 
 jobs:
-  homebrew:
-    name: Release
+  release:
+    name: Release Zed Extension
     runs-on: ubuntu-latest
     steps:
-      - uses: huacnlee/zed-extension-action@v1
+      - uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: supertheme4
+          zed-extensions: superkacper4/extensions
           push-to: superkacper4/extensions
         env:
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
